@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.19.0"
+  version: "1.20.0"
 
 package:
   name: google-cloud-billing
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/google-cloud-billing/google_cloud_billing-${{ version }}.tar.gz
-  sha256: b81befc22044f915aa5164cb78ec0ff4d90b53c9b5ea7d00ee282352427e93f2
+  sha256: 155824147381d3ed0303092540992bde50214a29177529458e3c4cc3de2b588f
 
 build:
   number: 0
