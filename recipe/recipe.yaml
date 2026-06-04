@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.19.0"
+  version: "1.20.0"
 
 package:
   name: google-cloud-billing
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/google-cloud-billing/google_cloud_billing-${{ version }}.tar.gz
-  sha256: b81befc22044f915aa5164cb78ec0ff4d90b53c9b5ea7d00ee282352427e93f2
+  sha256: 155824147381d3ed0303092540992bde50214a29177529458e3c4cc3de2b588f
 
 build:
   number: 0
@@ -23,9 +23,9 @@ requirements:
     - setuptools
   run:
     - python >=${{ python_min }}
-    - google-api-core >=2.11.0,<3.0.0
+    - google-api-core >=2.17.1,<3.0.0
     - google-auth >=2.14.1,<3.0.0,!=2.24.0,!=2.25.0
-    - grpcio >=1.33.2,<2.0.0
+    - grpcio >=1.59.0,<2.0.0
     - proto-plus >=1.22.3,<2.0.0
     - protobuf >=4.25.8,<8.0.0
     - grpc-google-iam-v1 >=0.14.0,<1.0.0
